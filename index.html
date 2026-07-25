@@ -70,9 +70,21 @@
 
     <p>⚽ Bóng đá | 🎮 Game | 💻 Công nghệ</p>
 
-    <button onclick="alert('Cảm ơn bạn đã ghé thăm!')">
-      Xin chào
-    </button>
+    <button onclick="showImage()">
+  Xin chào
+</button>
+
+<br><br>
+
+<img id="messi"
+src="messi.jpg"
+style="display:none;width:300px;border-radius:15px;">
+
+<script>
+function showImage() {
+  document.getElementById("messi").style.display = "block";
+}
+</script>
 </div>
 
 </body>
